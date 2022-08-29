@@ -7,6 +7,7 @@ rm -rf ~/.zshrc ~/.config/nvim ~/.config/mpv
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/neovim/ ~/.config/nvim
 ln -s ~/.dotfiles/mpv/ ~/.config/mpv
+ln -s ~/.dotfiles/alacritty/ ~/.config/alacritty
 ```
 
 ## List of programs
