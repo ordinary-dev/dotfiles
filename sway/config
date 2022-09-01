@@ -1,0 +1,22 @@
+### Variables
+
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+
+# Home row direction keys, like vim
+set $left h
+set $down j
+set $up k
+set $right l
+
+# Your preferred terminal emulator
+set $term alacritty
+
+# Your preferred application launcher
+set $menu wofi --show run
+
+### Output configuration
+output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+
+include /etc/sway/config.d/*
+include ~/.config/sway/conf.d/*
