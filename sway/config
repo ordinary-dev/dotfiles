@@ -15,6 +15,10 @@ set $term alacritty
 # Your preferred application launcher
 set $menu wofi --show run
 
+# Window borders
+default_border pixel
+default_floating_border pixel
+
 ### Output configuration
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
