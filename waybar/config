@@ -1,0 +1,26 @@
+{
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["pulseaudio", "sway/language", "clock"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "default": ["", ""]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol"
+    },
+    "sway/language": {
+        "format": "{short}",
+        "on-click": "swaymsg input type:keyboard xkb_switch_layout next",
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    }
+}
