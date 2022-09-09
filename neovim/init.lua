@@ -12,6 +12,7 @@ local options = {
     shiftwidth = 4,              -- width for autoindents
     autoindent = true,           -- indent a new line the same amount as the line just typed
     number = true,               -- add line numbers
+    relativenumber = true,       -- relative line numbers
     syntax = "enable",           -- syntax highlighting
     cursorline = true,           -- highlight current cursorline
 }
