@@ -1,0 +1,23 @@
+* {
+    border: none;
+    font-family: JetBrains Mono;
+    font-size: 13px;
+    color: #d5c4a1;
+}
+
+window {
+    font-weight: bold;
+    background: #504945;
+}
+
+#workspaces button {
+    padding: 0 4px;
+}
+
+#workspaces button.focused {
+    background-color: #458588;
+}
+
+#pulseaudio, #language, #clock {
+    margin: 0px 10px 0px 20px;
+}
