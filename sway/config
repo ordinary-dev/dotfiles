@@ -19,6 +19,9 @@ set $menu wofi --show run
 default_border pixel
 default_floating_border pixel
 
+# Notifications
+exec mako
+
 ### Select random wallpaper
 output * bg $(find ~/Pictures/wallpapers | shuf -n 1) fill
 
