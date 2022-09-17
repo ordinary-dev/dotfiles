@@ -10,9 +10,20 @@ cd ~/.dotfiles
 ## Screenshots
 ![Sway and neovim](screenshots/sway-neovim.webp)
 
-## List of programs
-* mpv
-* neovim
-* zsh
-* alacritty
-* sway
+## List of required programs
+* `sway` - window manager
+* `waybar` - status bar
+* `mako` - notifications
+
+* `grim` and `slurp` - screenshots
+* `wofi` - application launcher
+
+* `pactl` - volume control
+* `brightnessctl` - brightness control
+* `playerctl` - player control
+
+* `zsh` - shell
+* `alacritty` - terminal emulator
+
+* `neovim` - text editor
+* `mpv` - media player
