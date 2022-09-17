@@ -13,6 +13,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export GPG_TTY=$(tty)
+export GTK_THEME=Breeze-Dark
 export EDITOR='nvim'
 alias vi='nvim'
 alias vim='nvim'
