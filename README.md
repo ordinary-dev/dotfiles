@@ -7,6 +7,9 @@ cd ~/.dotfiles
 ./setup.sh
 ```
 
+## Screenshots
+![Sway and neovim](screenshots/sway-neovim.webp)
+
 ## List of programs
 * mpv
 * neovim
