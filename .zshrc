@@ -12,7 +12,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export GPG_TTY=(tty)
+export GPG_TTY=$(tty)
 export EDITOR='nvim'
 alias vi='nvim'
 alias vim='nvim'
