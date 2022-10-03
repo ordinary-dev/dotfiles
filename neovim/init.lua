@@ -1,6 +1,6 @@
 local options = {
     clipboard = "unnamedplus",   -- use system clipboard
-    wrap = false,                -- display lines as one long line
+    wrap = true,                 -- wrap long lines
     showmode = false,            -- hide mode (-- INSERT --)
     showmatch = true,            -- show matching 
     ignorecase = true,           -- case insensitive 
@@ -32,3 +32,10 @@ Plug 'nvim-lualine/lualine.nvim'
 vim.call('plug#end')
 
 require 'lualine-config'
+
+-- Keyboard shortcuts
+vim.keymap.set("n", "<C-n>", ":NERDTreeToggle<CR>", {})
+vim.keymap.set("i", "<C-n>", "<ESC>:NERDTreeToggle<CR>", {})
+
+vim.keymap.set("n", "<C-f>", ":Telescope find_files<CR>", {})
+vim.keymap.set("i", "<C-f>", "<ESC>:Telescope find_files<CR>", {})
