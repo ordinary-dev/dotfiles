@@ -1,8 +1,5 @@
 #!/bin/sh
-
-echo "Warning: this script will delete existing configuration"
-read -s -p "Press <Enter> to continue: "
-echo "ok"
+# Warning: this script will delete existing configuration
 
 # Zsh
 rm -rf ~/.zshrc
