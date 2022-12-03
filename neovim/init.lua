@@ -32,6 +32,7 @@ Plug 'nvim-lualine/lualine.nvim'
 vim.call('plug#end')
 
 require 'lualine-config'
+require 'telescope-config'
 
 -- Keyboard shortcuts
 vim.keymap.set("n", "<C-n>", ":NERDTreeToggle<CR>", {})
