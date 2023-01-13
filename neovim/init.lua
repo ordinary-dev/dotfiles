@@ -21,22 +21,10 @@ for key, value in pairs(options) do
   vim.opt[key] = value
 end
 
-local Plug = vim.fn['plug#']
-
-vim.call('plug#begin')
-Plug 'ryanoasis/vim-devicons'
-Plug 'scrooloose/nerdtree'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-lualine/lualine.nvim'
-vim.call('plug#end')
-
-require 'lualine-config'
-require 'telescope-config'
-
 -- Keyboard shortcuts
-vim.keymap.set("n", "<C-n>", ":NERDTreeToggle<CR>", {})
-vim.keymap.set("i", "<C-n>", "<ESC>:NERDTreeToggle<CR>", {})
-
 vim.keymap.set("n", "<C-f>", ":Telescope find_files<CR>", {})
 vim.keymap.set("i", "<C-f>", "<ESC>:Telescope find_files<CR>", {})
+
+require('plugins')
+require('lualine-config')
+require('telescope-config')
