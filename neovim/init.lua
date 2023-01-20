@@ -24,7 +24,10 @@ end
 -- Keyboard shortcuts
 vim.keymap.set("n", "<C-f>", ":Telescope find_files<CR>", {})
 vim.keymap.set("i", "<C-f>", "<ESC>:Telescope find_files<CR>", {})
+vim.keymap.set("n", "<C-b>", ":NvimTreeToggle<CR>", {})
 
 require('plugins')
 require('lualine-config')
 require('telescope-config')
+require('nvim-tree-config')
+require('nvim-treesitter-config')
