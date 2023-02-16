@@ -9,6 +9,4 @@ cd ~/.dotfiles
 
 ## List of required programs
 * `zsh` - shell
-* `neovim` - text editor
-* `ripgrep` - file search in neovim
 * `mpv` - media player
